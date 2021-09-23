@@ -5,8 +5,64 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
 .clearfix::after{
   content: '';
   display: table;
   clear: both;
+}
+
+header{
+  background-color: #B4D0E7;
+  min-height: 800px;
+}
+
+nav.clearfix{
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  min-height: 50px;
+  background-color: white;
+  text-align: center;
+}
+
+.nav_left{
+  list-style: none;
+  float: left;
+}
+
+.nav_left li, .nav_right li{
+  display: inline-block;
+  padding: 23px 20px;
+  vertical-align: middle;
+}
+
+.nav_left .li_txt:hover, .nav_right .li_txt:hover{
+  border-bottom: 2px solid black;
+}
+
+.nav_left li img, .nav_right li img{
+  width: 100%;
+  vertical-align: middle;
+}
+
+.nav_right{
+  list-style: none;
+  float: right;
+}
+
+.btn{
+  font-size: 14px;
+  color: white;
+  padding: 5px 30px;
+  background-color: #0061FF;
+  text-decoration: none;
+}
+
+.btn:hover{
+  background-color: #3B85FF;
 }
