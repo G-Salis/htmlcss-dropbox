@@ -17,7 +17,6 @@ body{
 
 header{
   background-color: #B4D0E7;
-  min-height: 800px;
 }
 
 nav.clearfix{
@@ -28,6 +27,7 @@ nav.clearfix{
   min-height: 50px;
   background-color: white;
   text-align: center;
+  z-index: 999;
 }
 
 .nav_left{
@@ -66,3 +66,45 @@ nav.clearfix{
 .btn:hover{
   background-color: #3B85FF;
 }
+
+.jumbotron{
+  position: relative;
+  width: 70%;
+  min-height: 600px;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+
+h1{
+  font-size: 60px;
+}
+
+.jumbo_txt{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 40%;
+}
+
+.jumbo_txt div{
+  margin-top: 30px;
+}
+
+.jumbo_txt div .btn{
+ padding: 10px 70px;
+}
+
+.jumbo_txt div i{
+  font-size: 50px;
+ }
+
+ .jumbo_img{
+    position: absolute;
+    top: 330px;
+    right: 0;
+    width: 60%;
+ }
+
+ .jumbo_img img{
+   width: 100%;
+ }
