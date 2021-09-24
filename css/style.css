@@ -71,9 +71,8 @@ nav.clearfix{
 
 /* Jumbotron */
 .jumbotron{
-  position: relative;
-  width: 70%;
-  min-height: 600px;
+  width: 75%;
+  height: 706px;
   margin: 0 auto;
   padding-top: 150px;
 }
@@ -82,15 +81,17 @@ h1{
   font-size: 4vw;
 }
 
+.jumbo_txt, .jumbo_img{
+  margin-top: 70px;
+}
+
 .jumbo_txt{
-  position: absolute;
-  top: 50%;
-  left: 0;
+  float: left;
   width: 40%;
 }
 
 .jumbo_txt div{
-  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .jumbo_txt div .btn{
@@ -102,7 +103,7 @@ h1{
  }
 
 .jumbo_img{
-  position: absolute;
+  float: left;
   top: 330px;
   right: 0;
   width: 60%;
@@ -117,10 +118,11 @@ h1{
 main{
   width: 60%;
   margin: 0 auto;
-  background-color: grey;
-  height: 1000px;
+  /* background-color: grey; */
+  min-height: 1000px;
 }
 
+/* Sezione riguardante l'acquisto Dropbox */
 .select_business{
   margin-top: 200px;
 }
@@ -132,7 +134,7 @@ main{
 }
 
 .middle{
-  margin: 0px 5%;
+  margin: 0px 45px;
 }
 
 .box_selection{
@@ -141,17 +143,22 @@ main{
   margin-top: 20px;
   min-height: 800px;
   border: 1px solid black;
-  background-color: blueviolet;
 }
 
+/* Riferimento al target del pacchetto */
 .user{
   text-align: center;
   border-bottom: 1px solid black;
   padding: 5px 0px;
 }
 
+/* Descrizione del pacchetto */
 .content_selection{
   padding: 20px;
+}
+
+.content_selection div{
+  margin-bottom: 40px;
 }
 
 .content_selection div h2{
@@ -171,6 +178,54 @@ main{
   list-style: none;
 }
 
-.content_selection div ul li{
-  padding: 15px 0px; 
+.content_selection div ul li.clearfix{
+  margin: 20px 0px; 
+}
+
+/* Icone utilizzate nell'elenco */
+.icon{
+  float: left;
+  width: 9%;
+  padding-top: 3px;
+}
+
+.txt{
+  float: left;
+  width: 90%;
+}
+
+.content_selection div a.btn{
+  padding: 3% 14%;
+}
+
+/* Piccolo bordo separatore */
+.borders{
+  display: inline-block;
+  width: 20%;
+  border-bottom: 1px solid black;
+}
+
+/* simbolo del check */
+.check{
+  color: #005FFF;
+}
+
+/* box contenitore sottostante ai tre ravvicinati */
+.buttom{
+  width: 100%;
+  min-height: 200px;
+}
+
+.buttom_txt{
+  float: left;
+  width: 70%;
+}
+
+.buttom_btn{
+  float: left;
+  width: 30%;
+}
+
+.content_selection div.buttom_btn a.btn {
+  padding: 3% 22%;
 }
