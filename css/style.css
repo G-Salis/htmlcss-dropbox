@@ -229,3 +229,45 @@ main{
 .content_selection div.buttom_btn a.btn {
   padding: 3% 22%;
 }
+
+/* PARTNER */
+.partner{
+  margin-top: 100px;
+}
+
+
+
+.partner_img{
+  float: left;
+  width: 50%;
+}
+
+.partner_img img{
+  width: 100%;
+}
+
+.partner_txt{
+  float: left;
+  width: 50%;
+  padding: 25px;
+}
+
+.partner_txt h2{
+  margin-bottom: 25px;
+}
+
+.partner_txt div{
+  margin: 25px 0px;
+}
+
+
+.partner_txt a.btn{
+  background-color:white;
+  color: black;
+  border: 1px solid black;
+  margin: 20px 0px;
+}
+
+.partner_txt a.btn:hover{
+  background-color: lightgrey;
+}
