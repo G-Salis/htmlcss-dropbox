@@ -115,11 +115,11 @@ h1{
 
 /* MAIN */
 
-main{
+.main_container{
   width: 60%;
   margin: 0 auto;
   /* background-color: grey; */
-  min-height: 1000px;
+  min-height: 100px;
 }
 
 /* Sezione riguardante l'acquisto Dropbox */
@@ -295,4 +295,49 @@ main{
 
 .middle_operation{
   margin: 0px 5%;
+}
+
+/* Sezione Client */
+.clients_dropbox{
+  margin-bottom: 70px;
+}
+.client_left{
+  width: 30%;
+  min-height: 200px;
+  float: left;
+  background-color: #097644;
+}
+
+.client_middle{
+  width: 40%;
+  min-height: 200px;
+  float: left;
+  background-color: #2d1170;
+}
+
+.client_right{
+  width: 30%;
+  min-height: 200px;
+  float: left;
+  background-color: #d49114;
+}
+
+/* Sezione FAQ */
+
+.faq_title h2, .faq_answer div{
+  line-height: 100px;
+  border-bottom: 1px solid black;
+  font-weight: 900;
+}
+
+.faq_answer div{
+  font-size: 1vw;
+}
+
+.faq_title h2{
+  font-size: 2vw;
+}
+
+.faq_answer div span:first-child{
+  margin-right: 25%;
 }
