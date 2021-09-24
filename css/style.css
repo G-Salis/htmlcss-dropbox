@@ -133,7 +133,7 @@ main{
   line-height: 400%;
 }
 
-.middle{
+.middle_select{
   margin: 0px 45px;
 }
 
@@ -270,4 +270,29 @@ main{
 
 .partner_txt a.btn:hover{
   background-color: lightgrey;
+}
+
+/* Sezione operazioni possibili */
+
+.operations_business h2:first-child{
+  margin-top: 70px;
+  font-size: 2vw;
+}
+
+.operation_box{
+  display: inline-block;
+  width: calc(90% / 3);
+  margin-bottom: 60px;
+}
+
+.operation_img img{
+  width: 100%;
+}
+
+.operation_box h2{
+  margin-bottom: 30px;
+}
+
+.middle_operation{
+  margin: 0px 5%;
 }
