@@ -341,3 +341,29 @@ h1{
 .faq_answer div span:first-child{
   margin-right: 25%;
 }
+
+footer{
+  width: 100%;
+  min-height: 300px;
+  background-color: #000;
+  color: white;
+  margin-top: 250px;
+}
+
+footer div{
+  width: 20%;
+  display: inline-block;
+  padding: 70px;
+}
+
+footer div h2{
+  margin-bottom: 20px;
+}
+
+footer div ul{
+  list-style: none;
+}
+
+footer div ul li{
+  margin-bottom: 10px;
+}
